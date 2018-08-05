@@ -1,0 +1,566 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #f4f4f4;
+}
+
+
+/* top */
+.navigation {
+    height: 40px;
+    background: #f5f5f5;
+}
+
+.navigation .top-right li a:hover {
+    color: red;
+}
+
+.navigation .top-left li a:hover {
+    color: red;
+}
+
+.navigation .top-left li{
+    float: left;
+    height: 35px;
+    font-size: 12px; 
+    color: #6c6c6c;
+    margin-right: 12px;
+    line-height: 40px;
+}
+
+.navigation .top-right li a{ 
+    float: right;
+    color: #6c6c6c;
+    height: 35px;
+    font-size: 12px; 
+    margin-right: 40px;
+    line-height: 40px;
+}
+
+.navigation .top-left li span {
+    margin-left: 85px;
+    color: #3c3c3c;
+}
+
+.navigation .top-right .c1 {
+    margin-right: 120px;
+}
+
+.navigation li a {
+    color: #6c6c6c;  
+    cursor: pointer;  
+}
+
+.navigation .top-left li .red {
+    color: red;
+}
+
+
+/* search区 */
+.search {
+    width: 1190px;
+    margin: 0 auto ;
+    background-color: #fff;
+}
+
+.search .logo {
+    position: relative;
+    width: 1190px;
+    height: 121px;
+    margin-left: 77px;
+    padding-top: 15px;
+}
+ 
+.search .logo-tb {
+    position: absolute;
+    width: 190px;    
+    height: 80px;
+    margin-left: 25px;
+    margin-top: 28px;
+    background-image: url('../img/TBlogo.png');
+    background-repeat: no-repeat;
+}
+
+.search .logo-tb a {
+    display: block;
+    width: 144px;
+    height: 0px;
+    padding-top: 54px;
+    overflow: hidden;
+}
+
+.search .logo .QRCode {
+    width: 76px;
+    height: 90px;
+}
+.search .logo .QRCode a {
+    display: block;
+    position: absolute;
+    width: 76px;
+    height: 90px;
+    margin-right: 93px;    
+    right: 0px;
+    bottom: 8px;
+    border: 1px solid #eee;
+    overflow: hidden;
+
+}
+
+.search .logo .QRCode .QR .phone {
+    display: block;
+    width: 72px;
+    height: 16px;
+    color: #f40;
+    font-size: 13px;
+    text-align: center;
+}
+
+.search .logo .QRCode .QR img {
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin-left: 7px;
+}
+
+.search .logo .QRCode .QR .d {
+    display: block;
+    width: 0px;
+    overflow: hidden;
+} 
+
+.search .search-tb {
+    height: 100px;  
+    width: 630px;  
+    margin-left: 255px;
+    margin-top: 24px;
+}
+
+.search .logo .search-tb .top {
+    height: 22px;
+} 
+
+.search .search-tb .top li {
+    display: block;
+    float: left;
+    text-align: center;    
+    width: 36px;
+    margin-right: 4px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.search .search-tb .top li a {
+    display: block;
+    height: 22px;
+    width: 36px;
+    color: rgb(255, 68, 0)
+}
+
+.search .search-tb .top li:hover{
+    background-color: #ffeee5;
+    color: #ff5400;
+}
+.search .search-tb .top a.t1 {
+    background-color: #ff5400;
+    color: #FFF;
+}
+
+
+.search .search-tb .search-box {
+    position: relative;
+    height: 36px;
+    border: 2px solid #ff5000;
+}
+
+.search .search-tb .search-box .content {
+    height: 36px;
+    line-height: 36px;
+    width: 472px;
+    border: none;
+    outline: 0;
+}
+.search .search-tb .search-box .submit {
+    position: absolute;    
+    height: 36px;
+    width: 100px;
+    font-size: 18px;
+    background: #ff4200;
+    border: none;
+    right: 0;
+    cursor: pointer;
+}
+
+
+.search .search-tb .search-bottom {
+    position: relative;
+    float: left;
+    margin: 5px auto;
+    width: 589px;
+    height: 44px;
+}
+
+.search .search-tb .search-bottom a {
+    font-size: 11px;
+    margin-right: 8px;
+    color: #666;
+}
+.search .search-tb .search-bottom a:hover {
+    color: #f40;
+}
+.search .search-tb .search-bottom a.ct {
+    color: #ff5000;
+}
+.search .search-tb .search-bottom .more {
+    display: inline-block;
+    position: absolute;
+    right: -41px;
+    top: -1px;
+}
+
+
+
+
+
+
+
+
+.subject {
+    background: #ff7b00;
+    height: 35px;
+    width: 100%;
+}
+.search .subject .main {
+    float: left;
+    width: 100%; 
+    height: 200px;
+}
+.search .subject .main .content {
+    height: 35px;
+    line-height: 35px;
+    margin-left: 200px;
+    margin-top: -17px;
+}
+.search .subject .main .cont1 li a {
+    margin-right: 7px;
+}
+.search .subject .theme {
+    float: left;
+    width: 190px;
+    height: 557px;
+    margin-left: -100%;
+    border: 1px solid #ff5000;
+    border-top: none;
+    margin-top: -17px;
+}
+.search .subject .theme .the1 h2 {
+    height: 30px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4px;
+}
+.search .subject .theme li {
+    overflow: hidden;
+    line-height: 32px;
+    height: 32px;
+    padding-left: 25px;
+    padding-right: 19px;
+    position: relative;
+    background-color: #fff;
+}
+.search .subject .theme li:hover {
+    background-color: rgb(255, 230, 192);
+}
+.search .subject .theme a {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+.search .subject .theme a:hover {
+    color: #ff5000;
+}
+.search .subject .theme li i {
+    position: absolute;
+    right: 10px;
+    line-height: 32px;
+    height: 32px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+
+
+.search .subject .con1 ul li {
+    float: left;
+    margin: 0 3px;
+    padding: 0 5px;
+}
+
+.search .subject .con1 ul li a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.search .subject .content .rod {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.search .subject .content .pic1 {
+    float: left;
+    width: 520px;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+.search .subject .content .pic2 {
+    float: left;
+}
+.search .subject .content .pic1 .pho1 {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+}
+.search .subject .content .pic1 .pho2 {
+    position: relative;
+    height: 230px;
+    margin-top: 2px;
+    overflow: hidden;
+}
+.search .subject .content .pho2 .inner {
+    position: relative;
+    height: 18px;
+}
+.search .subject .content .pho2 .inner span {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAAWCAMAAAA4sXj3AAAABGdBT…mTO2G/oTdIYnS5kf/669GrlNR/zsqNqFDaPLd0vzJSk38B3i6ACLPgHUQAAAAASUVORK5CYII=);
+    width: 136px;
+    height: 19px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 2px 0;
+    background-size: 122px 22px;
+}
+.search .subject .content .pho2 .inner em {
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    margin-left: 136px;
+}
+.search .subject .content .pic1 .pho2 img{
+    position: relative;
+    margin-top: 12px;
+    margin-left: 4px;
+    height: 190px;
+    width: 251px;
+    overflow: hidden;
+}
+.search .subject .content .pho2 ul li {
+    position: absolute;
+    top: 18px;
+    height: 3px;
+    line-height: 0;
+    width: 520px;
+    font-size: 0;
+    background: #ff1648;
+}
+.search .subject .content .pic2 {
+    width: 160px;
+    height: 512px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.search .subject .content .pic2 .pho1 {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+}
+
+.search .subject .content .pic2 h5 {
+    font-size: 12px;
+    font-weight: 400;
+    background: #f1f1f1;
+    color: #a1a1a1;
+    line-height: 24px;
+    padding-top: 6px;
+}
+.search .subject .content .pic2 .pho2 a {
+    position: relative;
+    margin-top: 1px;
+    overflow: hidden;
+    display: inline-block;
+    width: 160px;
+    height: 200px;
+}
+
+.search .subject .content .personal-info {
+    position: relative;
+    display: block;
+    float: right;
+    width: 279px;
+    height: 512px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.search .subject .content .per1 {
+    display: block;
+    padding: 3px 7px 10px 15px;
+    height: 132px;
+    background-size: 279px 168px;
+    background-repeat: no-repeat;
+}
+.search .subject .content .per1 .per1-top img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search .subject .content .per1 .sp1 {
+    display: block;
+    line-height: 17px;
+    height: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+.search .subject .content .per1 .per-p1 {
+    display: block;
+    height: 17px;
+    line-height: 17px;
+    width: 275px;
+    text-align: center;
+}
+.search .subject .content .per1 .a1 {
+    border-radius: 9px;
+    background: #ffe4db;
+    padding: 0 10px 0 20px;
+    position: relative;
+    color: #ff5000 !important;
+}
+.search .subject .content .per1 .coin {
+    position: absolute;
+    top: 0;
+    display: block;
+    left: 0;
+    height: 16px;
+    width: 16px;
+}
+.search .subject .content .per1 .a2 {
+    border-radius: 9px;
+    margin-left: 2px;
+    background: #ffe4db;
+    padding: -1px 10px 0 20px;
+    position: relative;
+    color: #ff5000 !important;
+}
+
+.search .personal-info .log a { 
+    display: block;    
+    float: left;
+    margin-top: 8px;
+    width: 75px;
+    height: 25px;
+    line-height: 25px;   
+    margin-right: 7px;
+    text-align: center;
+    color: #FFF;
+    background-image: linear-gradient(to right, #ff5000 0, #ff6f06 100%);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.search .subject .content .per2 a {
+    position: relative;
+    padding-left: 82px;
+    color: #f40;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    background: #ffe4dd;
+    font-size: 12px;
+}
+.search .subject .content .per2 a span {
+    position: absolute;
+    right: 52px;
+    top: 9px;
+    line-height: 0;
+    margin-left: 32px;
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent #f40;
+}
+.search .subject .content .notice {
+    display: block;
+    height: 98px;
+    padding-top: 10px;
+    width: 290px;
+    cursor: pointer;
+}
+.search .subject .content .notice .noti {
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    margin: 4px -2px;  
+}
+.search .subject .content .noti li {
+    float: left;
+    line-height: 20px;
+    width: 32px;
+    text-align: center;
+    margin: 0 11px;
+    
+} 
+.search .subject .content .notice li:hover{
+    color: #F40;
+}
+.search .subject .content .notice .noti2 {
+    font-weight: 700;
+}
+.search .subject .content .notic {
+    display: block;
+    margin: 0 12px;
+    height: 50px;
+    overflow: hidden;
+    padding-top: 9px;
+    padding-bottom: 6px;
+} 
+.search .subject .content .notic li {
+    float: left;
+    line-height: 25px;
+    height: 25px;
+    width: 130px;
+    overflow: hidden;
+}
+.search .subject .content .pers2 {
+    position: relative;
+    display: block;
+    width: 278px;
+    height: 231px;
+    border-top: 1px solid #f4f4f4;
+}
+
+.search .subject .content .pers2 a {
+    float: left;
+    width: 63px;
+    height: 63px;
+    padding-top: 1px;
+    margin: 6px 2px;
+    text-align: center;
+    display: block;
+    border: 1px solid #f4f4f4;
+    color: black;
+}
+.search .subject .content .pers2 a:hover{
+    color: #F40;
+}
